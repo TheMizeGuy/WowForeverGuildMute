@@ -177,3 +177,6 @@ Bump `## Version` in both `.toc` files, then build the zip with the addon folder
 ```
 zip -r -X dist/GuildMute-<version>.zip GuildMute -x '*.DS_Store' -x '*/._*'
 ```
+
+The CurseForge logo is `art/icon/avatar.png` (400x400). `art/icon/build.sh` re-renders it in
+Blender; `art/icon/NOTES.md` has the concept and the render settings.
