@@ -1,0 +1,17 @@
+## Interface: 16001
+## Title: WoW Forever Guild Mute
+## Notes: Hides chat from players whose guild name contains a word you choose (Olympus by default) in every chat channel, whispers included. /gmute opens the settings.
+## Author: TheMizeGuy
+## Version: 1.0.0
+## Category: Chat & Communication
+## IconTexture: Interface\Icons\Spell_Holy_Silence
+## SavedVariables: GuildMuteDB
+## AddonCompartmentFunc: GuildMute_OnAddonCompartmentClick
+
+# Keep in sync with GuildMute_Camelot.toc; the client loads that one first and falls back to this file.
+Match.lua
+Store.lua
+GuildMute.lua
+Bubbles.lua
+Minimap.lua
+Options.lua

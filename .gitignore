@@ -1,0 +1,16 @@
+# agent/tool state, never shipped
+.claude/
+.serena/
+.anti-slop/
+.remember/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# packaging output
+/dist/
+*.zip
+
+# downloaded client source and strings for tests/audit_globals.py
+/.cache/
