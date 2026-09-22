@@ -144,7 +144,8 @@ the addon's own work is about 0.4 microseconds on top of Blizzard's wrapping of 
 
 ## Install
 
-Copy the `GuildMute` folder into the Forever client's AddOns directory:
+Get it from CurseForge (https://www.curseforge.com/wow/addons/wow-forever-guild-mute) or from
+the GitHub releases, or copy the `GuildMute` folder into the Forever client's AddOns directory:
 
 ```
 C:\Program Files (x86)\World of Warcraft\_classic_beta_\Interface\AddOns\GuildMute
