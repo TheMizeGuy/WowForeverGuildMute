@@ -1,5 +1,9 @@
 # WoW Forever Guild Mute
 
+> **Deprecated (2026-09-24).** Another author has released a better addon that does this job, so
+> this one is no longer maintained. The CurseForge project has been deleted. Version 1.0.0 stays
+> available from the GitHub releases, but it will not receive fixes.
+
 Hides chat from players whose guild name contains a word or phrase you choose, in the World of
 Warcraft: Forever client (beta build 1.60.x, interface 16001).
 
@@ -144,8 +148,8 @@ the addon's own work is about 0.4 microseconds on top of Blizzard's wrapping of 
 
 ## Install
 
-Get it from CurseForge (https://www.curseforge.com/wow/addons/wow-forever-guild-mute) or from
-the GitHub releases, or copy the `GuildMute` folder into the Forever client's AddOns directory:
+Get it from the GitHub releases, or copy the `GuildMute` folder into the Forever client's AddOns
+directory:
 
 ```
 C:\Program Files (x86)\World of Warcraft\_classic_beta_\Interface\AddOns\GuildMute
@@ -179,5 +183,6 @@ Bump `## Version` in both `.toc` files, then build the zip with the addon folder
 zip -r -X dist/GuildMute-<version>.zip GuildMute -x '*.DS_Store' -x '*/._*'
 ```
 
-The CurseForge logo is `art/icon/avatar.png` (400x400). `art/icon/build.sh` re-renders it in
-Blender; `art/icon/NOTES.md` has the concept and the render settings.
+The logo is `art/icon/avatar.png` (400x400), the avatar of the deleted CurseForge project.
+`art/icon/build.sh` re-renders it in Blender; `art/icon/NOTES.md` has the concept and the render
+settings.
